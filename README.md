@@ -31,7 +31,6 @@ After, you will init the container service:
 NOTE: On Mac OS you must need share the path in -> preferences > tab File Sharing > add the project path
 
 
-
 Documentation:
 ------------
 For all the others request created for this project you must access this link here:
