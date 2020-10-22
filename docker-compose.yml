@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+    oowlish:
+        image: registry.gitlab.com/georgericardo26/oowlish-project-github-api
+        command: python manage.py runserver 0.0.0.0:8000
+        container_name: oowlish
+        volumes:
+            - .:/code
+        ports:
+            - "8000:8000"
